@@ -1,9 +1,11 @@
+import s from './styles.module.scss';
+
 function Main({
-  title = 'NextJS - Boilerplate',
-  description = 'NextJS, Typescript e Styled-Components'
+  title = 'Vite - Boilerplate',
+  description = 'React, Typescript e Sass'
 }) {
   return (
-    <div>
+    <div className={s.wrapper}>
       <h1>{title}</h1>
       <h2>{description}</h2>
     </div>
