@@ -6,8 +6,8 @@ function Main({
 }) {
   return (
     <div className={s.wrapper}>
-      <h1>{title}</h1>
-      <h2>{description}</h2>
+      <h1 className={s.title}>{title}</h1>
+      <h2 className={s.description}>{description}</h2>
     </div>
   );
 }
