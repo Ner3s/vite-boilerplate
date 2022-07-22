@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
-    "lint:fix": "eslint . --ext .tsx,.ts --fix --max-warnings=3"
+    "lint": "eslint . --ext .tsx,.ts --fix --max-warnings=3"
   },
   "dependencies": {
     "react": "^18.2.0",
